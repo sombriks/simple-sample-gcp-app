@@ -29,6 +29,7 @@ gcloud app deploy
 
 - must have an `app.yaml` file 
 - the `scripts` session in your `package.json` MUST have an `start` script
+- connection strings not automatically injected into appengine's env. **heroku and openshift laughing **
 - no civilized way to set env variables / secretes into the app, even via web console
 
 ## leads
