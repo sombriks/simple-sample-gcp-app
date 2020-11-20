@@ -24,3 +24,14 @@ gcloud login
 gcloud init
 gcloud app deploy
 ```
+
+## caveats
+
+- must have an `app.yaml` file 
+- the `scripts` session in your `package.json` MUST have an `start` script
+- no civilized way to set env variables / secretes into the app, even via web console
+
+## leads
+
+- https://stackoverflow.com/a/60898951/420096
+
